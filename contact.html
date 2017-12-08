@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>My personal CV</title>
+        <meta charset="UTF-8" />
+
+        <link rel="stylesheet" href="contact.css" type="text/css" />                        <!-- I have different css files for each page to make it easier to understand what each webpage needs to function-->
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body class="body">
+        <header class="mainheader">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="school.html">School</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="grades.html">Grades</a></li>
+                    <li class ="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="img/RGU.png">
+        </header>
+        
+
+        <section class="Maincontent">
+            <section class="content">
+                <article class="topcontent">
+                    <content>                        
+                        <p class="post-info"><strong>use this form if you would like to get in touch!</strong></p>
+                        <form action="mail.php" method="POST">                                                          <!--Here i have used a form that actually (hopefully) functions and will allow you to get in touch with me if you input each field correctly-->
+                            <p class="name">
+                                <input type="text" name="name" placeholder="Name.."  x-webkit-speech/>
+                                <label for="name">Name</label>
+                            </p>
+                            <p class="email">
+                                <input type="text" name="email" placeholder="name@example.com.." />
+                                <label for="email">Email</label>
+                            </p>
+                            <p class="text">
+                                <textarea name ="text" placeholder="Write to me.." /></textarea>
+                            </p>
+                            <p class="submit">
+                                <input type="submit" value="Send"><input type="reset" value="clear">            <!--While having a submit button for the contact form i also have a clear button which will give you the option to clear all text you have placed inside the form-->
+                            </p>
+                        </form>
+                    </content>
+                </article>
+                <article class="bottomcontent">
+                            <h2><a href="#">Information</a></h2>
+                        <content>
+                            <p>
+                                <strong>If you ever need to get in contact with me in another way, please use this information below to get in touch!</strong> <!--Here i have made use of the second section to provide some details if the contact form fails or if youd like to get in touch another way-->
+                                <br><br>
+                            <strong>Name</strong>: Liam Andrew Paxton
+                            <br><br>
+                            <strong>Contact Number</strong>: 07734428924                <!--Strong tags to make sure each point is very visible and identifiable-->
+                            <br><br>
+                            <strong>E-mail Address</strong>: liam.paxton@yahoo.co.uk
+                            <br><br>                                                                    <!-- <br> tags to ensure each text with info has a whole line between them-->
+                            <strong>Address</strong>: 2/L 159 Hardgate, AB116XQ, Aberdeen
+                            </p>
+                        </content>
+                    </article>
+            </section>
+        </section>
+        <footer class="mainfooter">
+        <p>Website Assessment CV.</p>
+        </footer>
+    </body>
+</html>
