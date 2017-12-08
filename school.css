@@ -27,7 +27,7 @@ a:hover, a:active {
 }
 
 .img1 {
-    width: 30%;
+    width: 40%;
     float: left;
     height: 250px;
     margin-top: 2%;
@@ -37,7 +37,7 @@ a:hover, a:active {
     border-color: purple;
 }
 .img2 {
-    width: 30%;
+    width: 40%;
     float: right;
     height: 250px;
     margin-top: 2%;
